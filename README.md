@@ -86,3 +86,6 @@ Please review [our security policy](https://github.com/laravel/breeze-next/secur
 ## License
 
 Laravel Breeze Next is open-sourced software licensed under the [MIT license](LICENSE.md).
+
+0=> Mother File -> https://github.com/laravel/breeze-next
+
