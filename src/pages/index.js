@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useAuth } from '@/hooks/auth'
+import Posts from '../components/Posts'
 
 export default function Home() {
     const { user } = useAuth({ middleware: 'guest' })
@@ -284,6 +285,7 @@ export default function Home() {
 
                         <div className="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                             Laravel Breeze + Next.js template
+                            <Posts/>
                         </div>
                     </div>
                 </div>
